@@ -23,7 +23,7 @@ naive, using RMSE and a demand-weighted MAPE.
 
 ## Running the notebook
 
-Open `electricity_demand_forecasting.ipynb` in Google Colab (a GPU runtime helps
+Open `AQSA Code.ipynb` in Google Colab (a GPU runtime helps
 the neural step) and run the cells in order.
 
 - The load CSV is read locally if present, otherwise downloaded from OPSD.
@@ -72,7 +72,7 @@ artifacts/comparison_of_models.png  # all forecasts vs actual
 ## Files
 
 ```
-electricity_demand_forecasting.ipynb   # the analysis
+AQSA Code.ipynb   # the analysis
 report_draft.html / report.docx        # written report (draft)
 requirements.txt / environment.yml     # dependencies
 time_series_60min_singleindex.csv      # load data (optional local copy)
